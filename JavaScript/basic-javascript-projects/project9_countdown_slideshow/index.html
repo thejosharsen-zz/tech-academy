@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Challenge 12</title>
+        <meta charset="utf-8">
+        <script src="./js/main.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <h1>Gaming Photo Slideshow</h1>
+
+        <div class="slideshow-container"> 
+            <!-- Slide 1 -->
+            <div class="mySlides fade" style="display:block" > <!--display:block must be present to ensure page auto-loads first slide-->
+                <div class="number-text">1 / 4</div>
+                <img src="./images/image-1.jpg" style="width: 100%;" alt="retro tech">
+                <div class="text">Retro tech</div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <div class="number-text">2 / 4</div>
+                <img src="./images/image-2.jpg" style="width: 100%;" alt="wasd">
+                <div class="text">WASD</div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides fade">
+                <div class="number-text">3 / 4</div>
+                <img src="./images/image-3.jpg" style="width: 100%;" alt="bang bang">
+                <div class="text">Bang bang</div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="mySlides fade">
+                <div class="number-text">4 / 4</div>
+                <img src="./images/image-4.jpg" style="width: 100%;" alt="arcade">
+                <div class="text">Arcade</div>
+            </div>
+
+            <!-- Slideshow controls -->
+            <a class="previous" onclick="plusSlides(1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+            <br> 
+
+            <!-- Position indicators -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+
+        <div style="text-align:center;">
+            <h1>Quick-access Countdown</h1>
+            <p>How many seconds would you like to set your countdown for?</p>
+            <input id="seconds" value="">
+            <button onclick="countdown()">Click here</button>
+            <p id="timer"></p>
+        </div>
+
+        <footer>
+            <p>Photos from: <a href="https://unsplash.com/">Unsplash</a></p>
+        </footer>
+
+    </body>
+</html>

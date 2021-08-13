@@ -1,0 +1,24 @@
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    background-color: #202124;
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+}

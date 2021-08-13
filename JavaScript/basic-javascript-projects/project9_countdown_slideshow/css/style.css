@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* displays nothing by default */
+.mySlides {
+    display: none;
+}
+
+/* image properties */
+img {
+    vertical-align: middle;
+    object-fit: cover;
+    height: 600px;
+}
+
+p {
+    color: white;
+}
+
+/* the next and previous buttons */
+.previous, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transform: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* displays next button to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* adds a transparent background when you hover over the next and previous buttons */
+.previous:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* caption text on bottom left */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+/* text for slide numbers */
+.number-text {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* slide indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* what the dots look like when active or hovered */
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* slideshow animations */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration:1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+footer {
+    position: fixed;
+    color: white;
+    right: 0;
+    bottom: 0;
+    padding-right: 20px;
+}
+
+/* unvisited link */
+a:link {
+    color:red;
+}
+
+/* visited link */
+a:visited {
+    color: whitesmoke;
+}
+
+.alarm {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+}
+
+#seconds {
+    color: white;
+}
+
+#seconds:hover {
+    background-color: rgba(87, 78, 78, 0.2);
+}

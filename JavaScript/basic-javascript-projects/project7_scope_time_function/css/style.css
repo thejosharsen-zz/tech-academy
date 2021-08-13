@@ -1,0 +1,17 @@
+body {
+    background-image: url("../images/background-dungeon.jpg");
+}
+
+h1 {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+
+p {
+    color: white;
+    font-family: 'New Tegomin', serif;
+}
+
+.dungeon-availability {
+    text-align: center;
+}

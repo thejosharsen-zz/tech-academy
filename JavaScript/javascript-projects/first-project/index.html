@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Assignment</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="./js/JavaScript_1.js"></script>
+      </head>
+
+    <body>
+        <div class="container">
+
+            <!-- SWITCH STATEMENTS & ROW START -->
+            <div class="row">
+
+                <!-- COLUMN 1 -->
+                <div class="column">
+                    <h1>Switch Statements</h1>
+                    <p>Clicking the appropriate movie title in the dropdown below will take you to the matching IMDB pages.</p>
+                    <p>Clicking the movie title on the right will take you to their YouTube trailer!</p>
+                    <div class="dropdown">
+                        <button class="dropbtn">Search titles</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.imdb.com/title/tt0848228/?ref_=fn_al_tt_1">Avengers, the</a>
+                            <a href="https://www.imdb.com/title/tt2395427/?ref_=fn_al_tt_1">Avengers: Age of Ultron</a>
+                            <a href="https://www.imdb.com/title/tt4154756/?ref_=fn_al_tt_1">Avengers: Infinity War</a>
+                            <a href="https://www.imdb.com/title/tt4154796/?ref_=fn_al_tt_1">Avengers: Endgame</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="column">
+                    <div class="gallery">
+                        <a target="_blank" href="img_5terre.jpg">
+                          <img src="./images/avengers-the.jpg" alt="Cinque Terre" width="600" height="400">
+                        </a>
+                        <div class="desc"><a href="https://www.youtube.com/watch?v=eOrNdBpGMv8">The Avengers</a></div>
+                      </div>
+  
+                      <div class="gallery">
+                        <a target="_blank" href="img_forest.jpg">
+                          <img src="./images/avengers-ageofultron.jpg" alt="Forest" width="600" height="400">
+                        </a>
+                        <div class="desc"><a href="https://www.youtube.com/watch?v=tmeOjFno6Do">Age of Ultron</a></div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="img_lights.jpg">
+                          <img src="./images/avengers-infinitywar.jpg" alt="Northern Lights" width="600" height="400" onclick="switchStatement()">
+                        </a>
+                        <div class="desc"><a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8">Infinity War</a></div>
+                      </div>
+                      
+                      <div class="gallery">
+                        <a target="_blank" href="img_mountains.jpg">
+                          <img src="./images/avengers-endgame.jpg" alt="Mountains" width="600" height="400">
+                        </a>
+                        <div class="desc"><a href="https://www.youtube.com/watch?v=TcMBFSGVi1c">Endgame</a></div>
+                      </div>
+                </div>
+
+                <!-- FUNCTION TO SWITCH THE BACKGROUND -->
+                <div class="background-switch">
+                  <p>Enter preferred background color</p>
+                  <p>Blue, White, Green, or Black</p>
+                  <input id="user-background" value="" placeholder="enter color">
+                  <button onclick="myFunction()">
+                    Change
+                  </button>
+                </div>
+
+                <!-- SECTION START - FOOTER -->
+                <footer class="align-bottom-right" onload="changeFooterBackground()">
+                  <div class="footer-background">
+                    <p class="container-2">
+                      &copy;-JoshArsenault<br>
+                      &copy;-Marvel Studios<br>
+                    </p>
+                  </div>
+                </footer>
+                
+                <!-- BUTTON TO CHANGE FOOTER BACKGROUND -->
+                <button onclick="changeFooterBackground()" class="align-bottom-middle" id="footer-button">
+                  Click to reverse the 
+                  <br> colors in the footer!
+                </button>
+                
+                
+                
+        </div>
+    </body>
+</html>
