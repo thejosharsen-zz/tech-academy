@@ -6,7 +6,10 @@ Lessons provided by the Tech Academy Software and Web Developer Bootcamp. [Check
 ## JavaScript Projects
 1. [ajaxDemo](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/ajaxDemo)
 2. [basic-javascript-projects](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/basic-javascript-projects)
-3. [javascript-projects](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects)
+3. [First Project](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects/first-project)
+4. [Calculator](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects/calculator)
+5. [Pizza Menu](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects/pizza-menu)
+6. [Tic Tac Toe](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects/tic-tac-toe)
 
 ## jQuery Projects
 1. [Intro](https://github.com/thejosharsen/tech-academy/tree/main/jQuery/intro)
