@@ -1,5 +1,5 @@
 # Tech Academy Software and Web Developer Bootcamp
-Everything in this repo are offered through the Tech Academy Software and Web Developer Bootcamp. [Check them out](https://www.learncodinganywhere.com/)
+Lessons provided by the Tech Academy Software and Web Developer Bootcamp. [Check them out](https://www.learncodinganywhere.com/)
 
 ![2021-08-13 (1)](https://user-images.githubusercontent.com/80072793/129339733-4139b207-4927-4dfa-9376-4224b9b2f8a4.png)
 
