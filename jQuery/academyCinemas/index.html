@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" href="./images/icons/cinema.png" type="image/icon type">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Academy Cinemas</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
+        <div class="container-fluid">
+          <img src="./images/icons/cinema.png" alt="logo" id="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#showtimes" tabindex="-1" aria-disabled="true">Showtimes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#deals" tabindex="-2" aria-disabled="true">Deals</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn-dark text-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Page Cover -->
+    <div class="jumbotron jumbotron-fluid cover-image">
+        <div class="container text-center">
+          <br><br><h1 class="display-4 text-light">Academy Cinemas</h1>
+          <p class="lead text-light">Sit back, relax and enjoy the show.</p>
+        </div><br><br>
+    </div>
+
+    <!-- Cinema Information -->
+    <nav id="about"></nav>
+    <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col">
+            <br><h6><u>Academy Cinemas</u></h6><br>
+            <img src="./images/cinema.jpeg" class="img-fluid" alt="academycinemas">
+          </div>
+          
+          <!-- Accomodations -->
+          <div class="col">
+            <br><h6><u>Accommodations</u></h6><br>
+            <ul class="list-group">
+                <li class="list-group-item" aria-current="true">Handicap friendly</li>
+                <li class="list-group-item bg-light">First class seating</li>
+                <li class="list-group-item">Clean auditoriums</li>
+                <li class="list-group-item bg-light">Public Washrooms</li>
+              </ul>
+              <br><p>Located in the heart of Chicago, our theatre aims to be the go-to spot for entertainment in the city.</p>
+          </div>
+
+          <!-- Now Showing -->
+          <div class="col">
+            <br><h6><u>Now Showing</u></h6><br>
+            <ul class="list-group">
+                <li class="list-group-item" aria-current="true">Nobody</li>
+                <li class="list-group-item bg-light">The Conjuring</li>
+                <li class="list-group-item">Cruella</li>
+                <li class="list-group-item bg-light">Underground</li>
+                <li class="list-group-item">Mortal Kombat</li>
+                <li class="list-group-item bg-light">Hitman's Wife's Bodyguard</li>
+              </ul>
+          </div>
+        </div>
+    </div><br><br>
+
+    <!-- Section - Gallery -->
+    <div class="galleryCTN"><br>
+
+      <button type="button" onclick="openModal();currentSlide(1)" class="btn btn-dark" id="galBTN">View Gallery</button><br>
+      <!-- Image Gallery - Thumbnails -->
+      <div class="row">
+        <div class="column">
+          <img src="./images/gallery/screenshot1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/screenshot2.jpeg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/screenshot3.jpeg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="./images/gallery/screenshot4.jpeg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+        </div>
+      </div>
+
+      <!-- Image Gallery - Photo Display -->
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/gallery/screenshot1.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/gallery/screenshot2.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/gallery/screenshot3.jpeg" style="width:100%">
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/gallery/screenshot4.jpeg" style="width:100%">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <!-- Image Gallery - Button Previews -->
+          <div class="row2">
+            <div class="column2">
+              <img class="demo cursor" src="./images/gallery/screenshot1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cruella">
+            </div>
+            <div class="column2">
+              <img class="demo cursor" src="./images/gallery/screenshot2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Nobody">
+            </div>
+            <div class="column2">
+              <img class="demo cursor" src="./images/gallery/screenshot3.jpeg" style="width:100%" onclick="currentSlide(3)" alt="The Conjuring: The Devil Made Me Do It">
+            </div>
+            <div class="column2">
+              <img class="demo cursor" src="./images/gallery/screenshot4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Hitman's Wife's Bodyguard">
+            </div>
+          </div>
+        
+          </div>
+        </div><br>
+    </div><br>
+
+    <!-- Movie Cards -->
+    <nav id="showtimes"></nav>
+    <div class="container text-center">
+        <div class="row align-items-start">
+
+          <!-- Card 1 - Nobody -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/nobody.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nobody</h5>
+                  <p class="card-text">Hutch Mansell fails to defend himself or his family when two thieves break into his suburban home one night.</p>
+                  <span class="badge badge-pill badge-primary bg-dark">11:30am</span>
+                  <span class="badge badge-pill badge-primary bg-dark">3:35pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">8:50pm</span>
+                </div>
+              </div>
+          </div>
+
+          <!-- Card 2 - The Conjuring -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/theconjuring.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Conjuring</h5>
+                  <p class="card-text">Paranormal investigators Ed and Lorraine Warren take on one of the most sensational cases of their careers after...</p>
+                  <span class="badge badge-pill badge-primary bg-dark">4:59pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">11:30pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">1:45am</span>
+                </div>
+              </div>
+          </div>
+
+          <!-- Card 3 - Cruella -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/cruella.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cruella</h5>
+                  <p class="card-text">Estella is a young and clever grifter who's determined to make a name for herself in the fashion world.</p>
+                  <span class="badge badge-pill badge-primary bg-dark">11:50am</span>
+                  <span class="badge badge-pill badge-primary bg-dark">1:45pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">6:45pm</span>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row align-items-start">
+
+          <!-- Card 4 - Underground -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/underground.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Underground</h5>
+                  <p class="card-text">A group of friends fight for their lives against the lethal and ravenous creatures lurking beneath the Earth's surface.</p>
+                  <span class="badge badge-pill badge-primary bg-dark">4:50pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">6:30pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">11:35pm</span>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+
+            <!-- Card 5 - Mortal Kombat -->
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/mortalkombat.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Mortal Kombat</h5>
+                  <p class="card-text">Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's...</p>
+                  <span class="badge badge-pill badge-primary bg-dark">3:30pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">4:50pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">6:55pm</span>
+                </div>
+              </div>
+          </div>
+
+          <!-- Card 6 - Hitman's Wife's Bodyguard -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/movie-covers/hitmanswifesbodyguard.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hitman's Wife's Bodyguard</h5>
+                  <p class="card-text">The world’s most lethal odd couple – bodyguard Michael Bryce and hitman...</p>
+                  <span class="badge badge-pill badge-primary bg-dark">2:30pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">5:10pm</span>
+                  <span class="badge badge-pill badge-primary bg-dark">11:45pm</span>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Movie Deals -->
+    <nav id="deals"></nav>
+    <br><div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <br><h1 class="display-4">Movie Deals</h1>
+            <p class="lead">Want to know about our monthly deals?</p>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">SHOW ME THE DEALS</button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Register to receive movie deals</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name"><br>
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"><br>
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email"><br>
+                        <input type="password" class="form-control" placeholder="Password" id="inputPassword3"><br>
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">I agree to receive email communications</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <!-- Newsletter -->
+    <br><div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <h1 class="display-4">Sign up for our newsletter</h1><br>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's email" aria-describedby="button-addon2">
+            <button type="button" class="btn btn-primary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="We've sent you a confirmation email.">Sign up!</button>
+          </div>
+        </div>
+    </div><br>
+
+    <script src="./js/app.js"></script>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <script>
+
+        // Popover for sign up button
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+
+        // Modal - Show me the deals
+        var myModal = document.getElementById('myModal')
+        var myInput = document.getElementById('myInput')
+        myModal.addEventListener('shown.bs.modal', function () {
+            myInput.focus()
+        })
+        
+    </script>
+
+  </body>
+</html>
