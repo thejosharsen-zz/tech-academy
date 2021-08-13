@@ -25,14 +25,17 @@ WHERE species_nutrition BETWEEN 2202 AND 2206;
 
 /* Assignment 5 */
 
-SELECT species_name, nutrition_type
-FROM tbl_species AS [Species Name], tbl_nutrition AS [Nutrition Type]
+SELECT species_name AS [Species Name], nutrition_type AS [Nutrition Type]
+FROM tbl_species
+INNER JOIN tbl_nutrition ON tbl_nutrition.nutrition_id = tbl_species.species_id;
 
 /* Assignment 6 */
 
-SELECT s.specialist_fname, s.specialist_lname, s.specialist_contact, a.species_name
-FROM tbl_specialist AS s, tbl_species AS a
-WHERE species_name = 'penguin'
+SELECT specialist_fname, specialist_lname, specialist_contact
+FROM tbl_specialist
+INNER JOIN tbl_care ON tbl_specialist.specialist_id = tbl_care.care_specialist
+INNER JOIN tbl_species ON tbl_care.care_id = tbl_species.species_care
+WHERE species_name = 'penguin';
 
 /* Assignment 7 */
 
