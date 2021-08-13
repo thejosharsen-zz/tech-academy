@@ -3,7 +3,7 @@ Everything in this repo are offered through the Tech Academy Software and Web De
 
 ![2021-08-13 (1)](https://user-images.githubusercontent.com/80072793/129339733-4139b207-4927-4dfa-9376-4224b9b2f8a4.png)
 
-## JavaScript
+## JavaScript Projects
 1. [ajaxDemo](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/ajaxDemo)
 2. [basic-javascript-projects](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/basic-javascript-projects)
 3. [javascript-projects](https://github.com/thejosharsen/tech-academy/tree/main/JavaScript/javascript-projects)
