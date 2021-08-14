@@ -1,6 +1,6 @@
 # Tech Academy Boot Camp: Beginner Javascript Projects
 
- Projects offered from the Tech Academy Structured Query Language Boot Camp.
+ Projects offered from the Tech Academy Javascript Boot Camp.
  [Check out the Tech Academy](https://www.learncodinganywhere.com/)
  
  ## Starter Projects
