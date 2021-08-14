@@ -1,6 +1,6 @@
 # Tech Academy Boot Camp: jQuery
 
- Projects offered from the Tech Academy Structured Query Language Boot Camp.
+ Projects offered from the Tech Academy Boot Camp.
  [Check out the Tech Academy](https://www.learncodinganywhere.com/)
 
 ## Academy Cinemas <br/>
