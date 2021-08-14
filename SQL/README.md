@@ -10,6 +10,6 @@
 
 ## Project 2: School Database :school:	
 
-![Database ER diagram (crow's foot)](https://user-images.githubusercontent.com/80072793/129332435-2ab94b95-0399-470b-b081-cbc011b96c71.png)
+![DBMS ER diagram (UML notation)](https://user-images.githubusercontent.com/80072793/129446054-3504fed9-36d8-4892-a496-556d1c8c5cf8.png)
 
 ---
