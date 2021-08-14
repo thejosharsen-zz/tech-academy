@@ -106,7 +106,7 @@ INSERT INTO Books
 	('Coraline', 'Chuck Haunreiter')
 ;
 
-INSERT INTO Book_Authors /* this query needs to be fixed*/
+INSERT INTO Book_Authors
 	(AuthorName, BookID)
 	VALUES
 	('Felipe Carlson', 1),
