@@ -18,3 +18,4 @@ Lessons provided by the Tech Academy Software and Web Developer Bootcamp. [Check
 ## SQL Projects
 1. [Zoo Database](https://github.com/thejosharsen/tech-academy/tree/main/SQL/ZooDatabase)
 2. [School Database](https://github.com/thejosharsen/tech-academy/tree/main/SQL/SchoolDatabase)
+3. [Library Management System](https://github.com/thejosharsen/tech-academy/tree/main/SQL/LibraryManagementSystem)
