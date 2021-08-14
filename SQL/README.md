@@ -3,13 +3,11 @@
  Projects offered from the Tech Academy Structured Query Language boot camp.
  [Check out the Tech Academy](https://www.learncodinganywhere.com/)
 
-## Project 1: Zoo Database :monkey_face:	
+[Project 1: Zoo Database](https://github.com/thejosharsen/tech-academy/tree/main/SQL/ZooDatabase) <br/> <br/>
+![stuart-jansen-EDsXFnbzzK4-unsplash](https://user-images.githubusercontent.com/80072793/129450846-ccfdd438-ad8a-4378-b426-62fe303faf8f.jpg)
 
-![DBMS ER diagram (UML notation)](https://user-images.githubusercontent.com/80072793/129331402-65bc9b27-584d-4c9c-885e-5d85d717f31c.png)
----
+[Project 2: School Database](https://github.com/thejosharsen/tech-academy/tree/main/SQL/SchoolDatabase) <br/> <br/>
+![shubham-sharan-Z-fq3wBVfMU-unsplash](https://user-images.githubusercontent.com/80072793/129450916-1c9f4c93-4249-463b-97da-bc093fd0a64d.jpg)
 
-## Project 2: School Database :school:	
-
-![DBMS ER diagram (UML notation)](https://user-images.githubusercontent.com/80072793/129446054-3504fed9-36d8-4892-a496-556d1c8c5cf8.png)
-
----
+[Project 3: Library Management System](https://github.com/thejosharsen/tech-academy/tree/main/SQL/LibraryManagementSystem) <br/> <br/>
+![alfons-morales-YLSwjSy7stw-unsplash](https://user-images.githubusercontent.com/80072793/129450959-7666e41f-992c-4def-9415-ab07adf7be47.jpg)
