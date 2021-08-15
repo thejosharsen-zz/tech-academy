@@ -160,3 +160,12 @@ INSERT INTO Book_Loans
 	(9, 1, 100002, '2020-02-26', '2021-09-16'),
 	(2, 4, 100001, '2020-01-11', '2021-11-07')
 ;
+
+SELECT * FROM ((Book_Loans FULL OUTER JOIN Borrower ON Book_Loans.CardNo=Borrower.CardNo)
+FULL OUTER JOIN Books ON Book_Loans.BookID=Books.BookID);
+
+/* --- */
+
+SELECT Title, AuthorName
+FROM Books
+INNER JOIN Book_Authors ON Books.BookID=Book_Authors.BookID;
