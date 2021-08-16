@@ -84,7 +84,7 @@ INSERT INTO Publisher
 INSERT INTO Books
 	(Title, PublisherName)
 	VALUES
-	('The Lose Tribe', 'Creativepont'),
+	('The Lost Tribe', 'Creativepont'),
 	('I Feel Bad About My Neck', 'Risk & Insurance'),
 	('Broken Glass', 'Jana Inc'),
 	('The Girl With the Dragon Tattoo', 'Make-A-Wish Foundation'),
