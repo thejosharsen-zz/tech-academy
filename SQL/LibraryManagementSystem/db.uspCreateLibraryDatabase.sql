@@ -4,12 +4,6 @@ CREATE TABLE Library_Branch (
 	[Address] NVARCHAR(50) NOT NULL
 );
 
-CREATE TABLE Book_Copies (
-	BookID INT NOT NULL,
-	BranchID INT FOREIGN KEY REFERENCES Library_Branch(BranchID),
-	Number_Of_Copies INT NOT NULL
-);
-
 CREATE TABLE Borrower (
 	CardNo INT NOT NULL PRIMARY KEY IDENTITY(100000,1),
 	[Name] NVARCHAR(50) NOT NULL,
@@ -27,6 +21,12 @@ CREATE TABLE Books (
 	BookID INT NOT NULL PRIMARY KEY IDENTITY(1,1),
 	Title NVARCHAR(50) NOT NULL,
 	PublisherName NVARCHAR(50) FOREIGN KEY REFERENCES Publisher(PublisherName)
+);
+
+CREATE TABLE Book_Copies (
+	BookID INT NOT NULL FOREIGN KEY REFERENCES Books(BookID),
+	BranchID INT FOREIGN KEY REFERENCES Library_Branch(BranchID),
+	Number_Of_Copies INT NOT NULL
 );
 
 CREATE TABLE Book_Authors (
