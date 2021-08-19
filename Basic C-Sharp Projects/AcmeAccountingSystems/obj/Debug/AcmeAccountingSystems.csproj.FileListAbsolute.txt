@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\bin\Debug\AcmeAccountingSystems.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\bin\Debug\AcmeAccountingSystems.exe
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\bin\Debug\AcmeAccountingSystems.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\obj\Debug\AcmeAccountingSystems.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\obj\Debug\AcmeAccountingSystems.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\obj\Debug\AcmeAccountingSystems.exe
+C:\Users\thejo\Dropbox\PC\Desktop\AcmeAccountingSystems\obj\Debug\AcmeAccountingSystems.pdb
