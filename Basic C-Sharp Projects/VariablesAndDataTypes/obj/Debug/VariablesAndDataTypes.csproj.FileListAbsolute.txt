@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.exe
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\bin\Debug\VariablesAndDataTypes.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.exe
+C:\Users\thejo\Dropbox\PC\Desktop\VariablesAndDataTypes\obj\Debug\VariablesAndDataTypes.pdb
