@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\obj\Debug\MathOperationAssignment.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\obj\Debug\MathOperationAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\bin\Debug\MathOperationAssignment.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\bin\Debug\MathOperationAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\bin\Debug\MathOperationAssignment.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\obj\Debug\MathOperationAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\MathOperationAssignment\obj\Debug\MathOperationAssignment.pdb
