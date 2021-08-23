@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.exe
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\bin\Debug\MathAndComparisonOperators.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.exe
+C:\Users\thejo\Dropbox\PC\Desktop\MathAndComparisonOperators\obj\Debug\MathAndComparisonOperators.pdb
