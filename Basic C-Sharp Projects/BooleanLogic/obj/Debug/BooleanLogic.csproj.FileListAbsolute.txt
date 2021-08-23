@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\bin\Debug\BooleanLogic.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\bin\Debug\BooleanLogic.exe
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\bin\Debug\BooleanLogic.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\obj\Debug\BooleanLogic.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\obj\Debug\BooleanLogic.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\obj\Debug\BooleanLogic.exe
+C:\Users\thejo\Dropbox\PC\Desktop\BooleanLogic\obj\Debug\BooleanLogic.pdb
