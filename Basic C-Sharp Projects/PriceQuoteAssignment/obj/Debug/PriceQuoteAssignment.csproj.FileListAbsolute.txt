@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\bin\Debug\PriceQuoteAssignment.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\bin\Debug\PriceQuoteAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\bin\Debug\PriceQuoteAssignment.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\obj\Debug\PriceQuoteAssignment.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\obj\Debug\PriceQuoteAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\obj\Debug\PriceQuoteAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\PriceQuoteAssignment\obj\Debug\PriceQuoteAssignment.pdb
