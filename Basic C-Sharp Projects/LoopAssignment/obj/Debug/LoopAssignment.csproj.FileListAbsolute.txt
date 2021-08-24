@@ -1,0 +1,7 @@
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\bin\Debug\LoopAssignment.exe.config
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\bin\Debug\LoopAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\bin\Debug\LoopAssignment.pdb
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\obj\Debug\LoopAssignment.csproj.AssemblyReference.cache
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\obj\Debug\LoopAssignment.csproj.CoreCompileInputs.cache
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\obj\Debug\LoopAssignment.exe
+C:\Users\thejo\Dropbox\PC\Desktop\LoopAssignment\obj\Debug\LoopAssignment.pdb
