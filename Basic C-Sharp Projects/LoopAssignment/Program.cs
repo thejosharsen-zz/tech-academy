@@ -11,6 +11,7 @@ namespace LoopAssignment
         static void Main(string[] args)
         {
 
+            // Ask user for a number, declare correct number
             Console.WriteLine("Pick a number between 1 and 10");
             int userNumber = Convert.ToInt32(Console.ReadLine());
             bool correctNumber = userNumber == 5;
